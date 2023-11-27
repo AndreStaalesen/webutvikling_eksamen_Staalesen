@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+main {
+    background-color: #fff;
+}
+
+.logo {
+    max-height: 90px ;
+    padding: 1rem;
+}
+
+
+nav ul {
+    float: right;
+    padding-top: 1rem;
+}
+li {
+    display: inline;
+    padding: 10px 20px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#index-head {
+    background-color: rgb(206, 203, 203);
+    text-align: center;
+    padding: 3rem;
+}
+#subheading-section {
+    text-align: center;
+    padding: 3rem;
+}
+#about-section {
+    display: flex;
+    justify-content: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding: 3rem;
+}
+#about-section article {
+    padding: 1rem;
+    max-width: 500px;
+}
+#service-section {
+    text-align: center;
+    display: flex;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+#newsletter-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(206, 203, 203);
+}
+
+
+.yellowbutton {
+    background-color: #e6bd43;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.whitebutton {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px black solid;
+}
+/*
+    Gull-gul kode: #e6bd43;
+    Gråsvart: #252525;
+    Svart: #000;
+    Hvit: #fff;
+
+    */
