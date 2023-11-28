@@ -29,10 +29,28 @@ li a{
 }
 
 #index-head {
-    background-color: rgb(206, 203, 203);
-    text-align: center;
+    background-image: url('../ressurser/background3.jpg');
+    background-position: 70%;
+    background-size: cover;
+    height: 18rem;
     padding: 3rem;
 }
+
+#index-head article {
+    background-color: #fff;
+    max-width: 45%;
+    float: right;
+    margin: 1rem 3rem 1rem;
+    padding: 1rem;
+}
+#index-head article p {
+    padding-bottom: 1rem;
+}
+
+
+
+
+
 #subheading-section {
     text-align: center;
     padding: 3rem;
@@ -73,6 +91,7 @@ h2 {
 #newsletter-form {
     padding: 11px;
     border: 0px;
+    max-width: 200px;
     }
 footer {
     background-color: #252525;
@@ -111,14 +130,68 @@ footer a {
 
 #products-head {
     text-align: center;
-    background-image: url('../ressurser/background2.jpg');
+    background-image: url('../ressurser/background2.jpg'); /*dette bildet er fra pixabay: https://pixabay.com/photos/workplace-office-desk-keyboard-2303851/*/
     background-size: cover;
     background-position: 70%;
-    filter: grayscale(100%);
-    height: 15rem;
+    filter: grayscale(100%); /*Her har jeg lest meg opp på filter, https://www.w3schools.com/cssref/css3_pr_filter.php*/
+    height: 22rem;
 }
 #products-head h1 {
-    padding-top: 5rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+h1 {
+    font-size: xx-large;
+}
+
+#about-head {
+    background-image: url('../ressurser/background2.jpg'); /*dette bildet er fra pixabay: https://pixabay.com/photos/workplace-office-desk-keyboard-2303851/*/
+    background-size: cover;
+    background-position: 70%;
+    height: 22rem;
+}
+#about-head article {
+    background-color: #fff;
+    max-width: 40%;
+    float: right;
+    margin: 1rem 3rem 1rem;
+    padding: 1rem;
+}
+#about head p {
+    padding: 3rem;
+}
+#clients-section {
+    text-align: center;
+    background-color: #e6bd43;
+    padding: 2rem;
+}
+#clients-section img {
+    padding: 2rem;
+    max-height: 125px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+#contact-section {
+    display: inline-block;
+}
+#contact-section article {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;   
+}
+.fa-solid {
+   margin-right: 15px;
+   padding: 1rem;
 }
 
 /*
