@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
 } 
 
 main {
@@ -97,6 +96,7 @@ h2 {
     max-width: 350px;
     min-width: 200px;
 }
+
 footer {
     background-color: #252525;
     color: #fff;
@@ -201,6 +201,45 @@ input, textarea {
 .fa-solid {
    margin-right: 15px;
    padding: 1rem;
+}
+
+#branding-section {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+}
+
+.portfolioh2 {
+    padding-left: 4%;
+    width: 80%;
+    border-bottom: solid 2px #e6bd43;
+    margin: 0 auto; 
+    padding-bottom: 2rem;
+    }
+    
+    #prevjobs-section {
+        padding: 2rem;
+    }
+
+
+#design-section{
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+#development-section{
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+#prevjobs-section{
+    padding-left: 9.5rem ;
 }
 
 /*
