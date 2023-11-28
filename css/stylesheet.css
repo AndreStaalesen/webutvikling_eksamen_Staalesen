@@ -90,6 +90,13 @@ h2 {
     border: 0px;
     max-width: 200px;
     }
+
+
+
+.articlecards {
+    max-width: 350px;
+    min-width: 200px;
+}
 footer {
     background-color: #252525;
     color: #fff;
