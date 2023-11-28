@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 main {
@@ -52,17 +53,45 @@ li a{
     text-align: center;
     display: flex;
     padding: 2rem;
+    justify-content: space-evenly;
+}
+#service-section article {
+    max-width: 250px;
 }
 h2 {
     text-align: center;
     padding-top: 1rem;
+}
+#abouth2 {
+    text-align: left;
 }
 #newsletter-section {
     text-align: center;
     padding: 2rem;
     background-color: rgb(206, 203, 203);
 }
+#newsletter-form {
+    padding: 11px;
+    border: 0px;
+    }
+footer {
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
 
+}
+#copyright {
+    padding-top: 4rem;
+}
+#socials {
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
 
 .yellowbutton {
     background-color: #e6bd43;
@@ -79,6 +108,19 @@ h2 {
     font-weight: bold;
     border: 2px black solid;
 }
+
+#products-head {
+    text-align: center;
+    background-image: url('../ressurser/background2.jpg');
+    background-size: cover;
+    background-position: 70%;
+    filter: grayscale(100%);
+    height: 15rem;
+}
+#products-head h1 {
+    padding-top: 5rem;
+}
+
 /*
     Gull-gul kode: #e6bd43;
     Gråsvart: #252525;
