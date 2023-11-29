@@ -203,7 +203,7 @@ input, textarea {
    padding: 1rem;
 }
 
-#branding-section {
+.branding-section {
     display: flex;
     justify-content: space-around; /* Adjust as needed */
     flex-wrap: wrap;
